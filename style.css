@@ -1,0 +1,59 @@
+.bday-wrapper {
+  height: 100vh;
+  border: 3px solid red;
+  position: relative;
+  background-image: url("img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bday {
+  width: 80%;
+  height: min-content;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(240, 255, 255, 0.7);
+  z-index: 1;
+}
+
+.page {
+  text-align: center;
+  /* font-weight: bold; */
+  padding: 20px;
+  z-index: 2;
+}
+
+.pi-img {
+  width: 150px;
+  margin-top: 50px;
+}
+
+.card-visuals {
+  border: 2px solid black;
+  background-image: url("img/pi-bg.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
+.card-texts {
+  border: 2px solid black;
+}
+
+.msgs {
+  margin-bottom: 50px;
+}
+
+.from {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 24px;
+}
