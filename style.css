@@ -17,12 +17,19 @@
 
 .mask {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  top: -15px;
+  bottom: -15px;
+  left: -15px;
+  right: -15px;
   background-color: rgba(240, 255, 255, 0.7);
   z-index: 1;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mask:hover {
+  box-shadow: 10px 10px 10px #333;
 }
 
 .page {
@@ -30,21 +37,32 @@
   /* font-weight: bold; */
   padding: 20px;
   z-index: 2;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.page:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px 10px #333;
 }
 
 .pi-img {
   width: 150px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .card-visuals {
-  border: 2px solid black;
   background-image: url("img/pi-bg.jpg");
   /* background-repeat: no-repeat; */
   background-size: contain;
+  border-radius: 5%;
 }
 .card-texts {
   border: 2px solid black;
+  border-radius: 5%;
+  user-select: none;
+  margin: 30px;
+  background-color: antiquewhite;
 }
 
 .msgs {
