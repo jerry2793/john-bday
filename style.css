@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .bday-wrapper {
   height: 100vh;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   position: relative;
   background-image: url("img/bg2.jpg");
   background-repeat: no-repeat;
@@ -49,6 +55,7 @@
 .pi-img {
   width: 150px;
   margin-top: 80px;
+  user-select: none;
 }
 
 .card-visuals {
